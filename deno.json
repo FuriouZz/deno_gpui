@@ -1,0 +1,6 @@
+{
+  "tasks": {
+    "dev": "deno task build:gpui && deno run --watch -A --unstable-ffi example.tsx",
+    "build:gpui": "cd ffi_gpui && cargo build"
+  }
+}
